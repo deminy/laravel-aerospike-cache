@@ -1,0 +1,41 @@
+{
+    "name": "deminy/laravel-aerospike-cache",
+    "type": "library",
+    "description": "An Aerospike caching driver for Laravel 5.1+.",
+    "license": "MIT",
+    "keywords": [
+        "aerospike",
+        "laravel",
+        "laravel-5",
+        "laravel5",
+        "php",
+        "cache",
+        "caching",
+        "database"
+    ],
+    "authors": [
+        {
+            "name": "Demin Yin",
+            "email": "deminy@deminy.net",
+            "homepage": "http://deminy.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3,<7",
+        "ext-aerospike": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0 - 5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CrowdStar\\AerospikeCache\\": "src/CrowdStar/AerospikeCache/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CrowdStar\\AerospikeCache\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
