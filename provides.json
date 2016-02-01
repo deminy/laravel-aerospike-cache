@@ -1,0 +1,5 @@
+{
+    "providers": [
+        "CrowdStar\\Cache\\Driver\\Aerospike\\AerospikeCacheServiceProvider"
+    ]
+}
