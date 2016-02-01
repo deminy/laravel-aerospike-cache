@@ -22,13 +22,25 @@ use Illuminate\Support\ServiceProvider;
  */
 class AerospikeCacheServiceProvider extends ServiceProvider
 {
+
     /**
      * Bootstrap the application events.
      */
     public function boot()
     {
-        Cache::extend('aerospike', function($app) {
+        Cache::extend('aerospike', function ($app) {
             return Cache::repository(new AerospikeStore());
         });
+    }
+
+
+    /**
+     * Register the service provider.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        // TODO: Implement register() method.
     }
 }
