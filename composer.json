@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "CrowdStar\\AerospikeCache\\": "src/CrowdStar/AerospikeCache/"
+            "CrowdStar\\Cache\\Driver\\Aerospike\\": "src/CrowdStar/Cache/Driver/Aerospike/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CrowdStar\\AerospikeCache\\Tests\\": "tests/"
+            "CrowdStar\\Cache\\Driver\\Aerospike\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable"
